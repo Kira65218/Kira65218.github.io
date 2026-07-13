@@ -1,0 +1,6 @@
+body {
+    text-align: center;
+    font-family: Helvetica;
+    background: linear-gradient(to top, red, blue);
+    min-height: 100vh;
+}
