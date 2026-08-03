@@ -7,15 +7,21 @@
 }
 
 #left-ear {
-    width: 230px;
-    height: 230px;
+    left: 50px;
+    transform: rotate(-30deg)
 }
 
-#right-ear {}
+#right-ear {
+    left: 220px;
+    transform: rotate(30deg)
+}
 
 #head {
     width: 230px;
     height: 230px;
     background-color: rgb(97, 129, 141);
     border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: 55px;
 }
