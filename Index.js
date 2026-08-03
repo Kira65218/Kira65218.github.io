@@ -4,6 +4,8 @@ function activate() {
     background.style.backgroundColor = "black";
 }
 
-background.onclick = function change() {
+function change() {
     background.style.backgroundColor = "LightSteelBlue";
 }
+
+background.onclick = change;
